@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      import-check:
+        enabled: false
+      uri: http://localhost:8081
+      label: master
+      username: root
+      password: s3cr3t
+logging:
+  level:
+    org.springframework.cloud.config: DEBUG

@@ -5,12 +5,14 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/digitallab-academy/ms-course-youtube.git
+          uri: https://github.com/deyvisgc/java-spring_cloud.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
           default-label: "master"
+        bootstrap: true
+        composite: true
   security:
     user:
       name: root
-      password: s3cr3t  
+      password: s3cr3t
