@@ -25,6 +25,11 @@ spring:
         show_sql: true
         use_sql_comments: false
         format_sql: false
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
@@ -34,13 +39,6 @@ eureka:
       defaultZone: http://localhost:8094/eureka/
 feign:
   hystrix:
-    enabled: true
-  ribbon:
-    enabled: true
-  circuitbreaker:
-    enabled: true
-ribbon:
-  eureka:
     enabled: true
 management:
   endpoints:
