@@ -46,6 +46,11 @@ feign:
           enabled: false
         loadbalancer:
           enabled: true
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 20          
 management:
   endpoints:
     web:
