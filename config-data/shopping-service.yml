@@ -39,10 +39,15 @@ eureka:
 feign:
   hystrix:
     enabled: true
+  client:
+    config:
+      default:
+        ribbon:
+          listOfServers: http://localhost:8092,http://localhost:8091
 ribbon:
   enabled: false    
 management:
   endpoints:
     web:
       exposure:
-        include: "*"      
+        include: "*"
