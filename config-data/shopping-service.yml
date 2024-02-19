@@ -43,9 +43,9 @@ feign:
     config:
       default:
         ribbon:
-          listOfServers: http://localhost:8092,http://localhost:8091
-ribbon:
-  enabled: false    
+          enabled: false
+        loadbalancer:
+          enabled: true
 management:
   endpoints:
     web:
