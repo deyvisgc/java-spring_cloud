@@ -36,9 +36,10 @@ feign:
   hystrix:
     enabled: true
   ribbon:
-    enabled: true
+    eureka:
+      enabled: true
   circuitbreaker:
-    enabled: true    
+    enabled: true
 management:
   endpoints:
     web:
