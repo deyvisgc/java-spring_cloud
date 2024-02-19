@@ -1,6 +1,7 @@
 package com.example.invoice.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -10,6 +11,7 @@ import javax.validation.constraints.Positive;
 import java.util.Date;
 
 @Data
+@Builder
 public class Product {
     private Long id;
 

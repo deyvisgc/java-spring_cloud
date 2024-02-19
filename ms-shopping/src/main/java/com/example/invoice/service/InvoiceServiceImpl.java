@@ -1,6 +1,11 @@
 package com.example.invoice.service;
 
+import com.example.invoice.client.CustomerClient;
+import com.example.invoice.client.ProductClient;
 import com.example.invoice.entity.Invoice;
+import com.example.invoice.entity.InvoiceItem;
+import com.example.invoice.model.Customer;
+import com.example.invoice.model.Product;
 import com.example.invoice.repository.InvoiceItemsRepository;
 import com.example.invoice.repository.InvoiceRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -9,6 +14,8 @@ import org.springframework.stereotype.Service;
 
 
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Service
@@ -19,6 +26,10 @@ public class InvoiceServiceImpl implements InvoiceService {
 
     @Autowired
     InvoiceItemsRepository invoiceItemsRepository;
+    @Autowired
+    ProductClient productClient;
+    @Autowired
+    CustomerClient customerClient;
 
     @Override
     public List<Invoice> findInvoiceAll() {
@@ -34,8 +45,9 @@ public class InvoiceServiceImpl implements InvoiceService {
         }
         invoice.setState("CREATED");
         invoiceDB = invoiceRepository.save(invoice);
-
-
+        invoiceDB.getItems().forEach( item -> {
+            productClient.updateStockProduct( item.getProductId(), item.getQuantity() * -1);
+        });
         return invoiceDB;
     }
 
@@ -67,8 +79,17 @@ public class InvoiceServiceImpl implements InvoiceService {
 
     @Override
     public Invoice getInvoice(Long id) {
-
         Invoice invoice= invoiceRepository.findById(id).orElse(null);
+        if (Objects.nonNull(invoice)){
+            Customer customer = customerClient.getCustomer(invoice.getCustomerId()).getBody();
+            invoice.setCustomer(customer);
+            List<InvoiceItem> listItem=invoice.getItems().stream().map(invoiceItem -> {
+                Product product = productClient.getProduct(invoiceItem.getProductId()).getBody();
+                invoiceItem.setProduct(product);
+                return invoiceItem;
+            }).collect(Collectors.toList());
+            invoice.setItems(listItem);
+        }
         return invoice ;
     }
 }

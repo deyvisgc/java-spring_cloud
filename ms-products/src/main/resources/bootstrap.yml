@@ -9,6 +9,10 @@ spring:
       label: master
       username: root
       password: s3cr3t
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
 logging:
   level:
     org.springframework.cloud.config: DEBUG
