@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44c9899d-7df8-4a4a-921d-997448e15dd5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../config-data/customer-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/gateway-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/product-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/registry-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/shopping-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/example/product/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/test/java/com/example/product/SpringCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/src/main/java/com/example/product/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-admin-service/src/test/java/com/example/product/SpringCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/src/main/java/com/example/product/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-config-service/src/test/java/com/example/product/SpringCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/controller/CustomerRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/controller/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/repository/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/repository/entity/Region.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/java/com/example/customers/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-customers/src/test/java/com/example/customers/SpringCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/src/main/java/com/example/product/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-eureka-server/src/test/java/com/example/product/SpringCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/controller/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/java/com/example/product/service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/test/java/com/example/product/ProductRepositoryMockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/test/java/com/example/product/ProductServiceMockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-products/src/test/java/com/example/product/SpringCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/SpringCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/client/CustomerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/client/CustomerHystrixFallbackFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/client/ProductClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/client/ProductHystrixFallbackFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/controller/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/controller/InvoiceRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/entity/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/entity/InvoiceItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/model/Region.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/repository/InvoiceItemsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/repository/InvoiceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/service/InvoiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/java/com/example/invoice/service/InvoiceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-shopping/src/test/java/com/example/invoice/SpringCloudApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectId" id="2cgSSBnLz1iKaycpMpsISJ24mGv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Proyectos/CURSOS JAVA/WEBFLUX/crud_reactive"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44c9899d-7df8-4a4a-921d-997448e15dd5" name="Changes" comment="" />
+      <created>1708531731703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708531731703</updated>
+    </task>
+    <servers />
+  </component>
+</project>
